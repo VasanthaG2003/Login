@@ -1,0 +1,35 @@
+body, html {
+height: 100%;
+margin: 0;
+font-family: 'Segoe UI', sans-serif;
+background: url('https://images.unsplash.com/photo-1522202176988-66273c2fd55f') no-repeat center center fixed;
+background-size: cover;
+}
+
+.login-wrapper {
+height: 100vh;
+display: flex;
+align-items: center;
+justify-content: center;
+backdrop-filter: blur(8px);
+padding: 1rem;
+}
+
+.card {
+background-color: rgba(202, 191, 191, 0.9);
+border-radius: 16px;
+box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+}
+
+.btn-primary {
+background-color: #4e7196;
+border-color: #f3f5f7;
+}
+
+.btn-primary:hover {
+background-color: #0053ba;
+border-color: #8ea7c0;
+}
+.text-center{
+    color: #4e7196;
+}
